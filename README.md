@@ -1,9 +1,9 @@
 Mixture Models & Expectation-Maximization Algorithm
 
-Overview
+## Overview
 This repository implements Gaussian Mixture Models (GMM) and Expectation-Maximization (EM) algorithms for various tasks such as matrix completion and collaborative filtering. The code is structured to initialize a mixture model, perform E-step and M-step iterations, and compare K-means clustering with the EM approach.
 
-Files
+## Files
 common.py: Contains utility functions and data structures for handling Gaussian Mixture models, initializing the models, and visualizing results.
 
 Key Functions:
@@ -30,20 +30,20 @@ mstep: Extended version of the M-step function.
 
 main.py: Contains the main script for running experiments with Gaussian Mixtures, Expectation-Maximization, and K-Means clustering. It compares the performance of K-means and EM, and applies the algorithms to matrix completion problems.
 
-Key Highlights:
+## Key Highlights:
 
 Initializes different models with various parameters such as K (number of clusters) and random seeds.
 Visualizes and prints the results, including log-likelihood and Bayesian Information Criterion (BIC).
 
-Configuration:
+## Configuration:
 
 Modify the number of clusters (Ks) and seeds for the Gaussian Mixture Models in main.py.
 Add your dataset in place of toy_data.txt for real-world experiments.
 
-Visualization
+## Visualization
 The code includes built-in functions for plotting the results of the Gaussian Mixture and EM algorithms using Matplotlib. These plots provide insights into how the mixture model is fitting the data.
 
-Use Cases
+## Use Cases
 Collaborative Filtering: Using GMM and EM for recommendation systems.
 Matrix Completion: Filling in missing values in data matrices, commonly used in recommender systems or collaborative filtering.
 Clustering: Comparing K-Means clustering with Gaussian Mixtures.
