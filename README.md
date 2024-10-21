@@ -35,24 +35,6 @@ Key Highlights:
 Initializes different models with various parameters such as K (number of clusters) and random seeds.
 Visualizes and prints the results, including log-likelihood and Bayesian Information Criterion (BIC).
 
-How to Run
-Dependencies:
-
-Python 3.x
-NumPy
-Matplotlib
-Install the required packages using:
-
-bash
-Copy code
-pip install numpy matplotlib
-Running the code: To run the main script and experiment with different models, execute:
-
-bash
-Copy code
-python main.py
-
-
 Configuration:
 
 Modify the number of clusters (Ks) and seeds for the Gaussian Mixture Models in main.py.
