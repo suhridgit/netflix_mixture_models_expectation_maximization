@@ -1,4 +1,4 @@
-Mixture Models & Expectation-Maximization Algorithm
+# Mixture Models & Expectation-Maximization Algorithm
 
 ## Overview
 This repository implements Gaussian Mixture Models (GMM) and Expectation-Maximization (EM) algorithms for various tasks such as matrix completion and collaborative filtering. The code is structured to initialize a mixture model, perform E-step and M-step iterations, and compare K-means clustering with the EM approach.
